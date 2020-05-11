@@ -1,0 +1,212 @@
+
+body
+{
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 200%;
+
+}
+h1
+{
+  color: #00bdaa;
+  font-size: 6.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Kaushan Script', cursive;
+
+}
+h2
+{
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:bold;
+  color: #43d8c9;
+  margin-bottom: 100px;
+}
+h3
+{
+  color: #00bdaa;
+  font-weight: lighter;
+  font-family: 'Montserrat', sans-serif;
+}
+p
+{
+  line-height: 2;
+}
+hr
+{
+  border: dotted 6px;
+  color: #dbdbdb;
+  width: 4%;
+  border-bottom: none;
+  margin: 100px auto;
+}
+a
+{
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+
+}
+a:hover
+{
+  color: #EAF6F6;
+}
+.top
+{
+  background-color: #effcef;
+  padding-top: 100px;
+}
+.images
+{
+  height: 400px;
+
+}
+.middle-container
+{
+  background-color: #fcf8f3;
+  padding: 100px 0 100px 0;
+}
+.skills
+{
+  padding: 100px 0 100px 0;
+  background-color: #fcf8f3;
+}
+.Icon
+{
+  font-family: 'Righteous', cursive;
+  background-color: #effcef;
+  padding-top: 50px;
+  top: 100px;
+  left: 750px;
+}
+.logo
+{
+  width: 10%;
+  margin: 50px auto 50px auto;
+
+
+}
+.profile
+{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 50%;
+  margin: 0 auto 0 auto;
+}
+.Profile-Pic
+{
+  width: 30%;
+}
+.Computer
+{
+  width: 25%;
+  float: left;
+  margin-right: 50px;
+  padding-top: 50px;
+}
+.skills-row-heading1
+{
+  text-decoration: underline;
+  padding-top: 30px;
+  float: left;
+}
+.skills-row-heading2
+{
+  text-decoration: underline;
+}
+.DesignSamples
+{
+  width: 25%;
+  float: right;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.skill-row
+{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.skill-row-description1
+{
+  clear: left;
+}
+
+.skill-row-description2
+{
+  clear: right;
+}
+
+.bottom-container
+{
+  color: #40514e;
+  background-color: #00bdaa;
+  padding: 50px 0 20px;
+}
+.contact-me
+{
+  background-color: #fcf8f3;
+  padding: 40px auto 40px auto;
+}
+.copyright
+{
+  color: #EAF6F6;
+  font-size: 1.5rem;
+  padding: 20px 0;
+}
+.myButton {
+	background-color:#66bfbf;
+	border-radius:28px;
+	border:1px solid #83c41a;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #86ae47;
+}
+.myButton:hover {
+	background-color:#a5cc52;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+.input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+.input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
